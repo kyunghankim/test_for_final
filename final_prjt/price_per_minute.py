@@ -7,7 +7,7 @@ from PyQt5.QtWidgets import *
 from PyQt5.QtCore import *
 from PyQt5 import uic
 
-from kiwoomAPI import KiwoomAPI
+from final_prjt.kiwoomAPI import KiwoomAPI
 import decorators
 
 form_class = uic.loadUiType("Kiwoom_datareader_v0.1.ui")[0]
